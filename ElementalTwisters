@@ -1,9 +1,12 @@
-#############|*|Elemental Twisters|*|#############|Made by KuroPanther|
-// WIP
-// Enables the TWISTER to have others elements.
-// For now its hybrid (can have another element along with shock), at least until i decide to try to fix it (I'm lazy lol),
-// it's kinda cool through... Enjoy!
+#############|*|ELEMENTAL TWISTERS|*|#############|Made by KuroPanther|
+
+// ALLOWS THE TWISTER TO HAVE DIFFERENT ELEMENTS.
+// FOR NOW ITS HYBRID (CAN HAVE ANOTHER ELEMENT ALONG WITH SHOCK), AT LEAST UNTIL I DECIDE TO FIX IT (I'M LAZY LOL),
+// IT'S KINDA COOL THROUGH... ENJOY!
+//
+// |!|WARNING|!| THIS MUST BE EXECUTED BEFORE LOADING A SAVE THAT HAVE ANY TWISTER WITH A DIFFERENT ELEMENT THAN SHOCK, 
+// |!|WARNING|!| OTHERWISE IT WILL BE DELETED. BE CAREFUL, AND PAY ATTENTION.
 ___________________________________________________________________________________________________________________________________________
 
-|*|HYBRID ELEMENTAL TWISTERS|*|
+|*|ENABLES FIIRE, CORROSSIVE AND SLAG TO SPAWN|*|
 set GD_Sage_Weapons.Shotgun.SG_Jakobs_3_Twister:WeaponPartListCollectionDefinition_305 ElementalPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Corrosive',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Fire',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Shock',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Slag',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2)))
