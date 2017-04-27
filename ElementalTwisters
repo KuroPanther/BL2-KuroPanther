@@ -6,7 +6,6 @@
 //
 // |!|WARNING|!| THIS MUST BE EXECUTED BEFORE LOADING A SAVE THAT HAVE ANY TWISTER WITH A DIFFERENT ELEMENT THAN SHOCK, 
 // |!|WARNING|!| OTHERWISE IT WILL BE DELETED. BE CAREFUL, AND PAY ATTENTION.
-____________________________________________________________________________________________________________________________________
-
+__________________________________________________________________________________________________________________________________
 |*|ENABLES FIIRE, CORROSSIVE AND SLAG TO SPAWN|*|
 set GD_Sage_Weapons.Shotgun.SG_Jakobs_3_Twister:WeaponPartListCollectionDefinition_305 ElementalPartData (bEnabled=True,WeightedParts=((Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Corrosive',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Fire',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Shock',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2),(Part=WeaponPartDefinition'GD_Weap_Shotgun.elemental.Shotgun_Elemental_Slag',Manufacturers=,MinGameStageIndex=0,MaxGameStageIndex=1,DefaultWeightIndex=2)))
